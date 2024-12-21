@@ -22,10 +22,14 @@ export default function App() {
     }
 
     function rollDice() {
-        const newDice = generateAllNewDice();
-        setDice(oldDice => {
-            return oldDice.map(die => die.isHeld ? die : {...die, value: rollDie()});
-        });
+        if (!gameWon) {
+            setDice(oldDice => {
+                return oldDice.map(die => die.isHeld ? die : {...die, value: rollDie()});
+            });
+        }
+        else {
+            return setDice(generateAllNewDice());
+        }
     }
 
     function hold(id) {

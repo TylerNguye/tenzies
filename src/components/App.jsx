@@ -4,7 +4,7 @@ import {nanoid} from 'nanoid'
 import Confetti from 'react-confetti'
 
 export default function App() {
-    const [dice, setDice] = useState(generateAllNewDice());
+    const [dice, setDice] = useState(() => generateAllNewDice());
     const gameWon = dice.every(die => die.isHeld && dice[0].value === die.value);
 
     function rollDie() {

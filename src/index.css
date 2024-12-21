@@ -50,3 +50,8 @@ main {
   border: none;
   cursor: pointer;
 }
+
+#rollBtn {
+  margin-top: 50px;
+  width: 100px;
+}

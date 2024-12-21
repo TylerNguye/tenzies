@@ -39,7 +39,7 @@ main {
   gap: 20px;
 }
 
-#diceDiv > .die {
+.die {
   background-color: white;
   font-family: inherit;
   font-size: 1.75rem;

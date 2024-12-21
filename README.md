@@ -1,4 +1,10 @@
-# React + Vite
+#Tenzies
+
+#About
+
+Simple dice game where users must get the same value on every dice. Inspired by Scrimba's React course.
+
+## React + Vite Project
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

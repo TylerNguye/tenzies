@@ -1,6 +1,6 @@
-#Tenzies
+# Tenzies
 
-#About
+## About
 
 Simple dice game where users must get the same value on every dice. Inspired by Scrimba's React course.
 
